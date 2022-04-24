@@ -6,16 +6,17 @@
 	{
 		public function act1()
 		{
-			echo '1';
+			echo 'act-1';
 		}
 		
 		public function act2()
 		{
-			echo '2';
+			echo 'act-2';
 		}
+		
 		public function act3()
 		{
-			echo '3';
+			echo 'act-3';
 		}
 	}
 ?>
