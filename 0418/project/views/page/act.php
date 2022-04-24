@@ -5,11 +5,14 @@
   <title></title>
  </head>
  <body>
-<h1><?= $header ?></h1>
+<div>
+    это представление
+    действия act контроллера page
+</div>
 <ul>
-    <?php foreach ($users as $user): ?>
-        <li><?= $user; ?></li>
-    <?php endforeach; ?>
+	<li><?php echo $var1; ?></li>
+	<li><?php echo $var2; ?></li>
+	<li><?php echo $var3; ?></li>
 </ul>
  </body>
 </html> 
